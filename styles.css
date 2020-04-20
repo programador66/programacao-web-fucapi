@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #d9d9d9;
+  color: #333;
+}
+
+header {
+  color: #fff;
+  background: #0e314a;
+  border: 1px solid black;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header div {
+  margin-bottom: 120px;
+}
+
+header nav {
+  margin-bottom: 120px;
+  width: 10%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  list-style-type: none;
+  font-weight: bold;
+  margin-right: 2%;
+}
+header nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#nome-perfil {
+  color: #0e314a;
+}
+
+#sec-perfil {
+  background-color: #f2f2f2;
+  width: 50%;
+  display: flex;
+  position: absolute;
+  top: 120px;
+  height: 30%;
+  border: solid 1px #0e314a;
+  border-radius: 2px;
+}
+
+#sec-perfil hr {
+  border-color: #0e314a;
+  opacity: 0.8;
+}
+
+header section div {
+  color: black;
+  margin: 2% 8%;
+  width: 100%;
+}
+
+#dados-principais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h1 {
+  color: #0e314a;
+  margin-top: 2%;
+}
+
+.container-skills-edu {
+  padding: 2%;
+  margin-top: 2%;
+  border: 1px solid #0e314a;
+  height: auto;
+  width: 890px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #f2f2f2;
+  margin-bottom: 2%;
+}
+
+.description {
+  width: 50%;
+}
+
+.skills {
+  align-self: start;
+}
+
+footer {
+  color: #fff;
+  background: #0e314a;
+  border: 1px solid black;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
