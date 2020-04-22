@@ -45,6 +45,30 @@ header nav li:hover {
   cursor: pointer;
 }
 
+a {
+  font-weight: bold;
+  color: #fff;
+}
+
+.social {
+  font-weight: bold;
+  color: black;
+}
+
+.social:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 #nome-perfil {
   color: #0e314a;
 }
@@ -78,7 +102,7 @@ header section div {
   justify-content: center;
 }
 
-main {
+#main-index {
   display: flex;
   margin-top: 200px;
   align-items: center;
@@ -86,7 +110,7 @@ main {
   justify-content: center;
 }
 
-main h1 {
+#main-index h1 {
   color: #0e314a;
   margin-top: 2%;
 }
@@ -121,4 +145,32 @@ footer {
   align-items: center;
   justify-content: space-around;
   font-weight: bold;
+}
+
+/*Page portifolio*/
+
+#main-portifolio {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-portifolio h2 {
+  color: #0e314a;
+}
+
+.container-portifolio {
+  padding: 2%;
+  margin-top: 2%;
+  border: 1px solid #0e314a;
+  height: auto;
+  width: 890px;
+  background: #f2f2f2;
+  margin-bottom: 2%;
+}
+
+.container-portifolio p {
+  margin-top: 8px;
 }
