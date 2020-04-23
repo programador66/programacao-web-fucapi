@@ -75,11 +75,11 @@ a:hover {
 
 #sec-perfil {
   background-color: #f2f2f2;
-  width: 50%;
+  width: auto;
   display: flex;
   position: absolute;
   top: 120px;
-  height: 30%;
+  height: auto;
   border: solid 1px #0e314a;
   border-radius: 2px;
 }
@@ -104,7 +104,7 @@ header section div {
 
 #main-index {
   display: flex;
-  margin-top: 200px;
+  margin-top: 250px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -173,4 +173,65 @@ footer {
 
 .container-portifolio p {
   margin-top: 8px;
+}
+
+@media only screen and (max-width: 960px) {
+  .container-portifolio {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header nav li {
+    margin-right: 8%;
+  }
+
+  #sec-perfil {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #0e314a;
+    border-radius: 2px;
+  }
+  #sec-perfil img {
+    width: 100%;
+    height: 200px;
+  }
+
+  #sec-perfil hr {
+    width: 100%;
+  }
+
+  #main-index {
+    margin-top: 70%;
+  }
+
+  .container-skills-edu {
+    width: 620px;
+  }
+  .container-portifolio {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin-top: 4%;
+  }
+
+  #main-index {
+    margin-top: 80%;
+  }
+
+  .container-skills-edu {
+    width: 450px;
+  }
 }
